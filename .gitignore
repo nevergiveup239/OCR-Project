@@ -4,14 +4,31 @@
 *.venv/
 venv/
 env/
+Ocr.venv/
 
 # Python cache
 __pycache__/
 *.py[cod]
 *$py.class
 *.so
+*.cache
 
-# Model weights & large checkpoint files (GitHub giới hạn tối đa 100MB/file)
+# Datasets, generated runs, and OCR results
+/Datasets/
+/dataset_document/
+/dataset_layout/
+/train_custom_handwritten/
+/valid_custom_handwritten/
+/OCR_Project/train_custom_handwritten/
+/OCR_Project/valid_custom_handwritten/
+/weights/
+/OCR_Project/weights/
+output/
+/runs/
+data.mdb
+lock.mdb
+
+# Model weights and large checkpoints
 *.pth
 *.pt
 *.onnx
@@ -19,8 +36,6 @@ __pycache__/
 *.bin
 *.h5
 
-# Kết quả chạy test / output tạm thời
-output/
 OCR_Camera_Results/
 *.log
 
@@ -34,7 +49,3 @@ Desktop.ini
 ~$*.docx
 ~$*.xlsx
 ~$*.pptx
-
-.venv/
-.venv-1/
-Ocr.venv/

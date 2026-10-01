@@ -1,0 +1,30 @@
+
+--- CROP 18 ---
+Original: CHO KHÁCH XEM VÀ THỬ HÀNG.
+CLAHE: CHO KHÁCH XEM VÀ THỨ HÀNG.
+Sharpened: CHO KHÁCH XEM VÀ THỨ HÀNG.
+Unsharp: CHO KHÁCH XEM VÀ THỨ HÀNG.
+Otsu: CHO KHÁCH XEM VÀ THỦ HÀNG.
+Adaptive: CHO KHÁCH XEM VÀ THỬ HÀNG
+Erode (gray): CHO KHÁCH XEM VÀ THỨ HÀNG.
+Erode (otsu): CHO KHÁCH XEM VÀ THỨ HÀNG
+
+--- CROP 19 ---
+Original: CÓ VĂN ĐỀ GỌI SHOP 0912.600.833 HỒ TRỢ
+CLAHE: CÓ VĂN ĐỀ GỌI SHOP 0912.600.833 HỒ TRỢ
+Sharpened: CÓ VĂN ĐỂ GỌI SHOP 0912,600.833 HỒ TRỢ
+Unsharp: CÓ VĂN ĐỀ GỌI SHOP 0912.600.833 HỒ TRỢ
+Otsu: CÓ VĂN ĐỀ GỌI SHOP 0912.600.833 HỒ TRỢ
+Adaptive: CÓ VĂN ĐỀ GỌI SHOI 0912.690.833 HỘ TRỌ
+Erode (gray): CÓ VĂN ĐỀ GỌI SHOP 0912.600.833 HỖ TRỢ
+Erode (otsu): CÓ VĂN ĐỀ GỌI SHOP 0912.600.833 HỒ TRỢ
+
+--- CROP 20 ---
+Original: KHÔNG TỰ Ý HOÀN ĐƠN, CẢM ƠN ANH CHỊ !
+CLAHE: KHÔNG TỰ Y HOÀN ĐƠN CẢM ƠN ANH CHỊ 1
+Sharpened: KHÔNG TỰ Y HOÀN ĐƠN CAM ƠN ANH CHI
+Unsharp: KHÔNG TỰ Y HOÀN ĐƠN, CẢM ƠN ANH CHỊ I
+Otsu: KHÔNG TỰ Ý HOÀN ĐƠN CẦM ƠN ANH CHỊ
+Adaptive: KHÔNG TẾ Y HOÀN ĐƠN CẢM ƠN ANH CHÍ 1
+Erode (gray): KHÔNG TỰ Ý HOÀN ĐƠN, CẢM ƠN ANH CHỊ 1
+Erode (otsu): KHÔNG TỰ Ý HOÀN ĐƠN, CẦM ƠN ANH CHỊ

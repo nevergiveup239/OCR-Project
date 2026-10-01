@@ -1,0 +1,12 @@
+
+--- Crop 18 ---
+Original: CHO KHÁCH XEM VÀ THỬ HÀNG.
+Erode (thicker text): BỘ CÓ NHƯ XEM YÀ THỨ HÀNG
+
+--- Crop 19 ---
+Original: CÓ VẤN ĐỀ GỌI SHOP 0912.600.833 HỒ TRỢ
+Erode (thicker text): 1983 NGÀY SH03 0912.600.833 HỒ TRỢ
+
+--- Crop 20 ---
+Original: KHÔNG TỰ Ý HOÀN ĐƠN, CẢM ƠN ANH CHỊ !
+Erode (thicker text): BỆNH VĂN ĐƠN, CẦM ƠN ANH CHỊ 1

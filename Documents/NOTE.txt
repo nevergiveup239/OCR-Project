@@ -1,0 +1,37 @@
+
+  model viet-ocr vấn đề gặp phải 
+nghiên cứu solution cho a nhé
+1. Vietocr đọc tiếng việt tốt 
+nhưng vì việc cố gắng đọc mọi thứ như tiếng việt 
+=> model đọc các ID thường bị sai 
+(finetune cho các case id hoặc chữ dễ sai 
+như sô 5 và 6 hoặc s và 8 trên giấy tờ 
+hoặc dùng ppocrv6 vs dữ liệu ID nó sẽ đọc đúng hơn) 
+
+
+2. 1 dữ liệu  có layout cố định các phân nhưng có thể in hơi lệch 
+=> nghiên cứu finetune model yolo26 để model này cắt layout 
+và phân biệt các trường và chọn model cho phù hợp
+(id cho ppocv6, tên họ cho => vietocr)
+[OCR] Tìm dữ liệu và gắn nhãn dữ liệu train model YOLO26
+  
+[OCR] Tìm hiểu và áp dụng YOLO26 để crop ảnh
+ 
+[OCR] Viết báo cáo phân tích bài research
+
+hoàn thành bảng ghi chi tiết công việc
+
+chạy model trước xong mới quét ảnh - done
+train model PP-OCRv6 với VietOCR 
+viết báo cáo research
+viết vòng lặp duyệt folder nhiều ảnh - done
+
+bug: - chưa nhận diện được 2 ngôn ngữ cùng lúc  
+(đang không sử dụng được 2 model nhận diện ký tự cùng lúc) -đã fix
+- lỗi model OCRv6 đang không nhận ra tiếng trung / đã fix
+- chạy model lên trước xong duyệt ảnh cũng vẫn đang bị lâu
+- khi chọn ảnh thì hiện mỗi thư mục không hiện ảnh nhưng vẫn chạy
+và bị nhầm 1 folder có 1 ảnh thành 2 ảnh - đã fix
+- train model OCRv6, vietOCR
+- lỗi font header out dual view
+- xử lý dữ liệu mờ, nhiễu, lên phương án nếu chữ khó đọc quá(imp)

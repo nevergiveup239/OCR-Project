@@ -1,0 +1,8 @@
+# Cấu hình Dataset Huấn luyện YOLO26 - Phát hiện Tờ giấy Tài liệu
+path: D:/OCR/dataset_document    # Thư mục gốc chứa dataset
+train: images/train        # Thư mục ảnh huấn luyện
+val: images/val            # Thư mục ảnh kiểm thử (validation)
+
+# Danh sách lớp (Class) - Chỉ cần 1 class bao trọn tờ giấy tài liệu chứa chữ:
+names:
+  0: document              # Tờ giấy / Phiếu giao hàng / Hóa đơn / Chứng từ
